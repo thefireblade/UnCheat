@@ -1,2 +1,4 @@
-# UnCheat
-A mod that adds a bunch of stat-increasing buildings only for human players.
+# UnCheatPlus
+A mod that forked from UnCheat. Adds more overpowered buildings and removes lower powered buildings.
+
+Great for sandboxing.
