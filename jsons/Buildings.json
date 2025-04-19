@@ -1,6 +1,7 @@
 [
   {
     "name": "Open Passive Cheats",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
       "Only available <for [Human player] Civilizations> <hidden from users>"
@@ -13,49 +14,18 @@
       "Only available <for [Human player] Civilizations> <hidden from users>",
       "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
       "Remove [Close Passive Cheats] [in this city] <hidden from users>",
-      "Remove [Open Passive Cheats] [in this city] <hidden from users>"
-    ]
-  },
-  {
-    "name": "Uncheat Everything",
-    "uniques": [
-      "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-      "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>",
-      "[+100]% [Production][in this city]",
-      "[+100]% [Food][in this city]",
-      "[+100]% [Gold][in this city]",
-      "[+100]% [Faith][in this city]",
-      "[+100]% [Science][in this city]",
-      "[+100]% [Culture][in this city]",
-      "[-100]% construction time for [All] improvements",
-      "[-100]% Unhappiness from [Population] [in this city]",
-      "New [All] units start with [500] Experience [in this city]"
-    ]
-  },
-  {
-    "name": "Stop Uncheat Everything",
-    "uniques": [
-      "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-      "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
-      "Only available <in cities with a [Uncheat Everything]> <hidden from users>",
-      "Remove [Uncheat Everything] [in this city] <hidden from users>",
-      "Remove [Stop Uncheat Everything] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Remove [Open Passive Cheats] [in this city] <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Everything +100%",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
       "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
       "Only available <for [Human player] Civilizations> <hidden from users>",
-      "[+100]% [Production][in this city]",
-      "[+100]% [Food][in this city]",
-      "[+100]% [Gold][in this city]",
-      "[+100]% [Faith][in this city]",
-      "[+100]% [Science][in this city]",
-      "[+100]% [Culture][in this city]"
+      "[+100]% [Production][Food][Gold][Faith][Science][Culture][in this city]"
     ]
   },
   {
@@ -66,11 +36,13 @@
       "Only available <in cities with a [Everything +100%]> <hidden from users>",
       "Remove [Everything +100%] [in this city] <hidden from users>",
       "Remove [Stop Everything +100%] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Production +100%",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -88,11 +60,13 @@
       "Only available <in cities with a [Production +100%]> <hidden from users>",
       "Remove [Production +100%] [in this city] <hidden from users>",
       "Remove [Stop Production +100%] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Production +400%",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -110,11 +84,13 @@
       "Only available <in cities with a [Production +400%]> <hidden from users>",
       "Remove [Production +400%] [in this city] <hidden from users>",
       "Remove [Stop Production +400%] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Food +100%",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Food] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -132,11 +108,13 @@
       "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
       "Remove [Food +100%] [in this city] <hidden from users>",
       "Remove [Stop Food +100%] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Gold +100%",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -154,11 +132,13 @@
       "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
       "Remove [Gold +100%] [in this city] <hidden from users>",
       "Remove [Stop Gold +100%] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Science +100%",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Science] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -176,11 +156,37 @@
       "Only available <in cities with a [Science +100%]> <hidden from users>",
       "Remove [Science +100%] [in this city] <hidden from users>",
       "Remove [Stop Science +100%] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
+    ]
+  },
+  {
+    "name": "Science +400%",
+    "cost": 0,
+    "uniques": [
+      "Can be purchased for [0] [Science] [in all cities] <hidden from users>",
+      "Destroyed when the city is captured <hidden from users>",
+      "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "[+500]% [Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Stop Science +400%",
+    "uniques": [
+      "Can be purchased for [0] [Science] [in all cities] <hidden from users>",
+      "Destroyed when the city is captured <hidden from users>",
+      "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
+      "Only available <in cities with a [Science +500%]> <hidden from users>",
+      "Remove [Science +500%] [in this city] <hidden from users>",
+      "Remove [Stop Science +500%] [in this city] <hidden from users>",
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Culture +100%",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -198,11 +204,13 @@
       "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
       "Remove [Culture +100%] [in this city] <hidden from users>",
       "Remove [Stop Culture +100%] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Faith +100%",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -221,11 +229,13 @@
       "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
       "Remove [Faith +100%] [in this city] <hidden from users>",
       "Remove [Stop Faith +100%] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Faith 10x",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -244,11 +254,13 @@
       "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
       "Remove [Faith 10x] [in this city] <hidden from users>",
       "Remove [Stop Faith 10x] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "City Defense +100%",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -266,11 +278,13 @@
       "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
       "Remove [City Defense +100%] [in this city] <hidden from users>",
       "Remove [Stop City Defense +100%] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Fast Improvement",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -288,11 +302,13 @@
       "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
       "Remove [Fast Improvement] [in this city] <hidden from users>",
       "Remove [Stop Fast Improvement] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Remove Unhappiness",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -310,11 +326,13 @@
       "Only available <in cities with a [Remove Unhappiness]> <hidden from users>",
       "Remove [Remove Unhappiness] [in this city] <hidden from users>",
       "Remove [Stop Unhappiness Removal] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Increase Unit XP",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -332,11 +350,13 @@
       "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
       "Remove [Increase Unit XP] [in this city] <hidden from users>",
       "Remove [Stop Unit XP Increase] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
     "name": "Expert Spies",
+    "cost": 0,
     "uniques": [
       "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
@@ -355,7 +375,8 @@
       "Only available <in cities with a [Open Passive Cheats]> <hidden from users>",
       "Remove [Expert Spies] [in this city] <hidden from users>",
       "Remove [Stop Expert Spies] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
@@ -363,7 +384,8 @@
     "uniques": [
       "Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
       "Destroyed when the city is captured <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
@@ -374,7 +396,8 @@
       "Only available <in cities with a [Open Instant Cheats]> <hidden from users>",
       "Remove [Close Instant Cheats] [in this city] <hidden from users>",
       "Remove [Open Instant Cheats] [in this city] <hidden from users>",
-      "Only available <for [Human player] Civilizations> <hidden from users>"
+      "Only available <for [Human player] Civilizations> <hidden from users>",
+      "Unbuildable <hidden from users>"
     ]
   },
   {
